@@ -1,0 +1,45 @@
+{
+  "name": "fish-ish",
+  "version": "1.0.0",
+  "description": "project 3 yo",
+  "main": "server.js",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "cookie-session": "^2.0.0-beta.3",
+    "ejs": "^2.6.1",
+    "express": "^4.15.4",
+    "if-env": "^1.0.4",
+    "mongodb": "^3.1.1",
+    "mongoose": "^5.2.5",
+    "passport": "^0.4.0",
+    "passport-google-oauth20": "^1.0.0"
+  },
+  "devDependencies": {
+    "concurrently": "^3.6.1",
+    "nodemon": "^1.18.3"
+  },
+  "scripts": {
+    "client": "cd client && yarn start",
+    "server": "nodemon server.js",
+    "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stmu009/fish-ish.git"
+  },
+  "keywords": [
+    "dr",
+    "doom",
+    "and",
+    "the",
+    "fantastic",
+    "four"
+  ],
+  "author": "drea damian trace krista chris",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stmu009/fish-ish/issues"
+  },
+  "homepage": "https://github.com/stmu009/fish-ish#readme"
+}
